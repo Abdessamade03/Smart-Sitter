@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Couleur pour le bouton non sélectionné -->
+    <item android:state_selected="false" android:drawable="@drawable/button_shape" />
+
+    <!-- Couleur pour le bouton sélectionné -->
+    <item android:state_selected="true" android:drawable="@drawable/login_shape" />
+</selector>
+
+

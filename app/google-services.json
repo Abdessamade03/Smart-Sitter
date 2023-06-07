@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "21248163187",
+    "project_id": "smartsitter-49850",
+    "storage_bucket": "smartsitter-49850.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21248163187:android:e5670a43c32d2e4942d906",
+        "android_client_info": {
+          "package_name": "com.example.smartsitter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21248163187-oqk4canmeeu9d7nr1o9ii00kpr75i2sh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzvB1yd5KcPXaRJLFGaeNK3Jz1kTw3F0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "21248163187-oqk4canmeeu9d7nr1o9ii00kpr75i2sh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

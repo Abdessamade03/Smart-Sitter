@@ -1,0 +1,35 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="General Settings">
+        <SwitchPreference
+            android:key="pref_key_notifications"
+            android:title="Enable Notifications"
+            android:summary="Enable or disable notifications"
+            android:defaultValue="true" />
+
+        <ListPreference
+            android:key="pref_key_language"
+            android:title="Language"
+            android:summary="Select your preferred language"
+            android:defaultValue="en" />
+
+        <EditTextPreference
+            android:key="pref_key_username"
+            android:title="Username"
+            android:summary="Enter your username"
+            android:dialogTitle="Enter Username"
+            android:defaultValue="" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Advanced Settings">
+        <EditTextPreference
+            android:key="pref_key_debug_mode"
+            android:title="Version 1.0.0" />
+
+        <EditTextPreference
+            android:defaultValue=""
+            android:dialogTitle="Enter Server URL"
+            android:key="pref_key_server_url"
+            android:title="About US !" />
+    </PreferenceCategory>
+</PreferenceScreen>
